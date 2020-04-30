@@ -26,10 +26,11 @@ const MyNewsCard = ({articles}) => {
 			      </Card.Text>
 
 			       
-			       <Card.Text><span class="label label-success">Actor :</span>  {article.actor}   
-			      </Card.Text>
+			       
 			      <Card.Text><span class="label label-danger">About :</span> {article.species}  |  {article.gender}  |  {article.dateOfBirth}  |  EyeColor - {article.eyeColour} |  HairColor - {article.hairColour} 
 			       </Card.Text>
+	    			<Card.Text><span class="label label-success">Played By :</span>  {article.actor}   
+			      </Card.Text>
 
 			    </Card.Body>	
 		  </Card>
